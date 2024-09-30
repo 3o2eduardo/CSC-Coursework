@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+ 
+    int loaves;
+    int flour;
+    double salt;
+    int yeast;
+    int water;
+    int multiplication;
+ 
+    flour = 350;
+    salt = 24.5;
+    yeast = 33;
+    water = 120;
+    
+    cout << "How many loaves of bread would you like to make? ";
+    cin >> loaves;
+    
+    cout << "-------------------------------------------------\n";
+    cout << "in order to make " << loaves << " loaves of bread you need:\n";
+    
+    multiplication = flour * loaves;
+    cout << multiplication << " grams of flour\n";
+    multiplication = salt * loaves;
+    cout <<  multiplication << " grams of salt\n";
+    multiplication = yeast * loaves;
+    cout <<  multiplication << " grams of salt\n";
+    multiplication = water * loaves;
+    cout <<  multiplication << " grams of salt\n";
+}
